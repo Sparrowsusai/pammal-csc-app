@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins','sans-serif';
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background:#091057 ;
+}
+
+.wrapper
+{
+	position: relative;
+	width: 750px;
+	height: 450px;
+	background: transparent;
+	border: 2px solid #fcf101;
+	box-shadow: 0 0 25px #fcf101;
+/*	overflow: hidden;*/
+}
+.wrapper .form-box
+{
+	position: absolute;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/*.wrapper .form-box.login
+{
+	left: 0;
+	padding: 0 60px 0 40px;
+	display: none;
+}
+.wrapper .form-box.register
+{
+	right: 0;
+	padding: 0 60px 0 40px;
+}
+.form-box h2
+{
+	font-size: 32px;
+	color: white;
+	text-align: center;
+}*/
+
+.form-box .input-box
+{
+	position: relative;
+	width: 100%;
+	height:50px;
+	margin: 25px 0;
+}
+
+/*.input-box input
+{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	padding-right: 23px;
+	border-bottom: 2px solid #fff;
+	font-size:16px;
+	transition: .5s;
+}*/
+/*.input-box input:focus,
+.input-box input:valid
+{
+	color: #fff;
+	border-bottom-color:#0ef;
+}*/
+/*.input-box label
+{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	font-size: 16px;
+	color: white;
+	pointer-events: none;
+	transition: .5s;
+}*/
+
+/*.input-box input:focus~label,
+.input-box input:valid~label
+{
+	top:-5px;
+	color: #F3C623;
+}
+
+.input-box i
+{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	color: white;
+	font-size: 18px;
+	transition: .5s;
+}
+.input-box input:focus~i,
+.input-box input:valid~i
+{
+	color: #0ef;
+}
+.btn
+{
+position: relative;
+width: 100%;
+height: 45px;
+background: transparent;
+border: 2px solid #F3C623;
+outline: none;
+border-radius: 40px;
+cursor: pointer;
+font-size: 16px;
+color: #fff;
+font-weight: 600;
+z-index: 1;
+
+}
+
+.btn:hover
+{
+position: relative;
+width: 100%;
+height: 45px;
+background: transparent;
+border: 2px solid #0ef;
+outline: none;
+border-radius: 40px;
+cursor: pointer;
+font-size: 16px;
+color: #fff;
+font-weight: 600;
+z-index: 1;
+}
+.form-box .links
+{
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	margin: 20px 0 10px;
+}
+
+.links p a
+{
+	color: #F3C623;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.links p a:hover
+{
+	text-decoration: underline;
+}
+
+.wrapper .info-text
+{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.wrapper .info-text.login
+{
+	right: 0;
+	text-align: right;
+	padding: 0 30px 50px 180px;
+	margin-top: -40px;
+	display: none;
+} 
+/*.wrapper .info-text .logo*/
+/*{
+	width: 50%;
+	height: 30%;
+	display: flex;
+	align-self:center;
+	flex-direction: column;
+	
+}
+.info-text a
+{
+	text-decoration: none;
+}
+.info-text a h2
+{
+	color: #F3C623;
+}
+.info-text h2
+{
+	font-size: 16px;
+	color: blue;
+	text-align: center;
+	line-height: 2.0;
+	text-transform: uppercase;
+}
+
+.info-text p
+{
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	margin: center;
+	font-family: "Times New Roman";
+	color: #fff;
+}
+
+.wrapper .bg-animation
+{
+	position: absolute;
+	top: -4;
+	right: 0;
+	width: 850px;
+	height: 600px;
+	background: linear-gradient(200deg,#091057,#091057);
+	border-bottom: 3px solid #F3C623;
+	transform: rotate(10deg) skewy(40deg);
+	transform: rotate(0) skewy(0);
+	transform-origin: bottom right;
+}
+.wrapper .bg-animation2
+{
+	position: absolute;
+	top: 100%;
+	left: 250px;
+	width: 850px;
+	height: 800px;
+	border-top: 3px solid #F3C623;
+	box-shadow:0 0 25px yellow ;
+	transform: rotate(-10deg) skewy(-40deg);
+	transform-origin: bottom left;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+ Firefox 
+input[type=number] 
+{
+  -moz-appearance: textfield;
+}*/
